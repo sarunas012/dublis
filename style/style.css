@@ -190,10 +190,33 @@ h1 span {
 .contacts .wrapper h4{
 
 }
-i{
+.phone i{
     display: inline-block;
 }
 .phone h4{
     display: inline-block;
     font-size: 13px;
 }
+.mail i{
+    display: inline-block;
+}
+.mail h4{
+    display: inline-block;
+    font-size: 13px;
+}
+.location{
+    display: flex;
+}
+.location h4{
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+
+/*.mail{
+    display: flex;
+}
+.mail h4{
+    font-size: 13px;
+}*/
