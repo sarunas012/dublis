@@ -117,19 +117,19 @@ h1 span {
 .gallery{
     display: flex;
 }
-.left-side{
+.gallery .left-side{
     width: 50%;
     font-size: 0;
 }
-.right-side{
+.gallery .right-side{
     width: 50%;
     font-size: 0;
 }
-.half{
+.gallery .half{
     width: 50%;
     display: inline-block;
 }
-.full{
+.gallery .full{
     width: 100%;
 }
 .gallery .wrapper{
@@ -166,4 +166,34 @@ h1 span {
 }
 .gallery .wrapper:hover h4{
     opacity: 1;
+}
+.contacts{
+    max-width: 1000px;
+    margin: auto;
+    border: 1px solid #000;
+}
+.contacts .left-side{
+    width: 50%;
+    border: 1px solid red;
+}
+.contacts .right-side{
+    width: 50%;
+    border: 1px solid red;
+}
+.contacts .wrapper{
+    display: flex;
+}
+.contacts .left, .right{
+    width: 50%;
+    border: 1px solid blue;
+}
+.contacts .wrapper h4{
+
+}
+i{
+    display: inline-block;
+}
+.phone h4{
+    display: inline-block;
+    font-size: 13px;
 }
